@@ -1,0 +1,148 @@
+/* Main Container */
+.aadhaar-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .aadhaar-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  /* Update Section */
+  .update-section {
+    margin-bottom: 40px;
+  }
+  
+  .update-service {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .update-service h2 {
+    font-size: 2rem;
+    color: #1a73e8;
+    margin-bottom: 20px;
+  }
+  
+  .update-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .update-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #444;
+  }
+  
+  .update-box p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .update-box a {
+    font-size: 1rem;
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .update-box a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Reference Section */
+  .reference-section {
+    margin-top: 20px;
+  }
+  
+  .reference-section h3 {
+    font-size: 1.5rem;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  .reference-section ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .reference-section li {
+    margin-bottom: 10px;
+  }
+  
+  .reference-section a {
+    color: #1a73e8;
+    text-decoration: none;
+  }
+  
+  .reference-section a:hover {
+    text-decoration: underline;
+  }
+  
+  /* FAQ Section */
+  .faq-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .faq-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .faq-item {
+    margin-bottom: 20px;
+  }
+  
+  .faq-question {
+    background-color: #1a73e8;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .faq-question:hover {
+    background-color: #165bb7;
+  }
+  
+  .faq-answer {
+    margin-top: 10px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .faq-view-all {
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    display: inline-block;
+  }
+  
+  .faq-view-all:hover {
+    text-decoration: underline;
+  }
+  

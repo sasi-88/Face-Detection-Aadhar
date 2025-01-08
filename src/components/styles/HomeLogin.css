@@ -1,0 +1,118 @@
+/* General page styling */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative; /* Positioning context for the overlay */
+  background-image: url('C:\Users\sasid\OneDrive\Documents\sih2\face-auth-app\src\assets\background2.jpeg'); /* Replace with your image path */
+  background-size: cover; /* Ensures the image covers the entire area */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents image from repeating */
+}
+
+/* Overlay for translucency */
+.login-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+  z-index: 1; /* Ensure the overlay is above the background but below the content */
+}
+
+/* Login Box */
+.login-box {
+  background-color: rgba(245, 245, 245,0.95 ); /* Slight transparency for the box */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 350px;
+  position: relative;
+  z-index: 2; /* Ensure the box stays above the overlay */
+}
+
+/* Aadhar Profile Image */
+.aadhar img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* Login Title */
+.login-title {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* User Input Field with Icon */
+.user,
+.lock {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  border-radius: 30px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.user img,
+.lock img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.user input,
+.lock input {
+  border: none;
+  outline: none;
+  background: none;
+  width: 100%;
+  font-size: 16px;
+  padding-left: 5px;
+}
+
+.user input::placeholder,
+.lock input::placeholder {
+  color: #888;
+}
+
+/* Login Button */
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Forgot Password and Sign Up Links */
+.link {
+  margin-top: 20px;
+}
+
+.link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.link a:hover {
+  text-decoration: underline;
+}
+/* Login Button */
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
